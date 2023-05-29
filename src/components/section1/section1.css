@@ -2,5 +2,13 @@
     width: 100%;
 }
 .mini-container {
-    width: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.mini-container img{
+    width: 50%;
+    height: auto;
+}
+

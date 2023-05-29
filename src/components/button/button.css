@@ -1,11 +1,8 @@
-@font-face {
-    font-family: 'AvenirNextLTProRegular';
-    src: url('../../fonts/AvenirNext/AvenirNextLTPro-Regular.otf') format('truetype');
-    /* You can add other font-related properties here, such as font-weight and font-style */
-  }
 .normal-button{
     border-radius: 3px;
     width: 100%;
+    height: 100%;
+    font-size: 0.85vw;
     font-family: 'AvenirNextLTProRegular', sans-serif;
 }
 .normal-button:hover{
@@ -18,12 +15,14 @@
 }
 .login-button{
     width: 100%;
+    height: 100%;
     color: white;
     background-color: black;
     border-color: white;
     border-radius: 3px;
     width: fit-content;
     font-family: 'AvenirNextLTProRegular', sans-serif;
+    font-size: 0.85vw;
 }
 .login-button:hover{
     filter: invert(0.9);
@@ -33,4 +32,5 @@
     border: 0px;
     border-radius: white;
     border-radius: 3px;
+    color: white;
 }

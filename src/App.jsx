@@ -2,15 +2,24 @@ import React from 'react'
 import Button from './components/button/button'
 import Login from './components/button/loginButton'
 import Section from './components/section1/section1'
+import Header from './components/header/header'
 
 function App() {
   return (
     <>
-      <Login text="LOG IN" />
-      <Button text="NORMAL" backgroundColor="rgba(100,33,255,255)" borderColor="white" fontColor="white" />
-      <Button text="NORMAL2" backgroundColor="#0063e5" borderColor="white" fontColor="white" />
+      <div
+        style={{
+          width: '100%',
+          height: '90px',
+          position: 'fixed',
+          top: '0px',
+          left: '0px',
+          marginTop: '0.01%',
+        }}
+      >
+        <Header />
+      </div>
       <Section />
-      {/* <loginButton text="LOG IN" /> */}
     </>
   )
 }

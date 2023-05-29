@@ -67,3 +67,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+@font-face {
+  font-family: 'AvenirNextLTProRegular';
+  src: url('src/fonts/JannaBold/AvenirNext/AvenirNextLTPro-Regular.otf') format('truetype');
+  /* You can add other font-related properties here, such as font-weight and font-style */
+}
+@font-face {
+  font-family: 'JannaLTBold';
+  src: url('/src/fonts/JannaBold/JannaLTBold.ttf') format('truetype');
+  /* You can add other font-related properties here, such as font-weight and font-style */
+}
+
+.janna-font{
+  font-family: 'JannaLTBold', sans-serif;
+}
+.avenir-next-regular-font {
+  font-family: 'AvenirNextLtProRegular', sans-serif;
+}
