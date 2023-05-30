@@ -9,13 +9,21 @@ export default function Header() {
     <div className="header">
       <img src={DisneyLogo} alt="Disney Logo" style={{ marginLeft: '3%', height: '100%' }} />
       <div style={{ width: '74vw' }} />
-      <div style={{ width: '10%', marginTop: '1%', marginBottom: '1%' }}><Button text="SIGN UP NOW" backgroundColor="#0063e5" borderColor="white" fontColor="white" /></div>
-      <div style={{
-        marginRight: '3%', marginTop: '1%', marginBottom: '1%', width: '6vw',
-      }}
+      <a
+        href="https://www.disneyplus.com/sign-up?type=standard"
+        style={{ width: '10%', marginTop: '1%', marginBottom: '1%' }}
+      >
+        <Button text="SIGN UP NOW" backgroundColor="#0063e5" borderColor="white" fontColor="white" />
+
+      </a>
+      <a
+        href="https://www.disneyplus.com/sign-up?type=standard"
+        style={{
+          marginRight: '3%', marginTop: '1%', marginBottom: '1%', width: '6vw',
+        }}
       >
         <Login text="LOG IN" />
-      </div>
+      </a>
     </div>
   )
 }

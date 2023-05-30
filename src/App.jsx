@@ -7,6 +7,14 @@ function App() {
     <>
       <div
         style={{
+          // position: 'absolute',
+          // top: 0,
+        }}
+      >
+        <Section />
+      </div>
+      <div
+        style={{
           width: '100%',
           height: '90px',
           position: 'fixed',
@@ -17,7 +25,6 @@ function App() {
       >
         <Header />
       </div>
-      <Section />
     </>
   )
 }
