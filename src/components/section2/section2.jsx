@@ -1,4 +1,5 @@
 import React from 'react'
+import Chart from '../chart/chart'
 import './section2.module.css'
 
 export default function section2() {
@@ -13,9 +14,19 @@ export default function section2() {
         Select your plan
       </p>
       <p className="avenir-next-regular-font" style={{ color: 'grey', textAlign: 'center' }}>Cancel anytime</p>
-      <p className="avenir-next-italic-font" style={{ color: 'grey', fontSize: '60%', textAlign: 'left' }}>
-        * The price may vary if billed through other platforms. Third party charges may apply.
-      </p>
+      <Chart
+        header={[['Disney+', '/src/assets/disney-logo-2.png', 'USD 7.99/MONTH*', 'https://www.disneyplus.com/sign-up?skuInterval=monthly&toggle=shown'], ['Combo+', '/src/assets/disney-combo-star.png', 'USD 14.99/MONTH*', 'https://www.disneyplus.com/sign-up?type=bundle']]}
+        data={[[['Annual price'], ['USD 66.99/year*', ' 12 months for the price of 9'], ['-']],
+          [['Original series, classics and movies from Disney, Pixar, Marvel, Star Wars and National Geographic'], ['check'], ['check']],
+          [['Live sports from the world\'s best leagues and biggest tournaments from ESPN'], ['-'], ['check']],
+          [['Local productions and award-winning TV shows, movies, and series exclusively on Star+'], ['-'], ['check']],
+          [['Stream up to 4 different devices at once'], ['4'], ['4+4']],
+          [['Download and watch your favorites without connection or delays'], ['check'], ['check']],
+          [['Create personalized profiles within your account'], ['7'], ['7+7']],
+          [['Protect your family with parental controls'], ['check'], ['check']],
+        ]}
+        extraMessage={['* The price may vary if billed through other platforms. Third party charges may apply.']}
+      />
     </div>
   )
 }
