@@ -1,5 +1,7 @@
 .container{
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 .mini-container {
     width: 50%;
@@ -10,5 +12,17 @@
 .mini-container img{
     width: 50%;
     height: auto;
+}
+.mini-container-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mini-container-2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 25% 25%; 
 }
 

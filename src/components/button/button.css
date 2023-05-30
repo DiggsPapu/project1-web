@@ -34,3 +34,30 @@
     border-radius: 3px;
     color: white;
 }
+.svg-button {
+    background-color:transparent;
+    border: 0px;
+}
+.svg-button svg{
+    animation: jumpInfinite 1s infinite;
+}
+.svg-button:hover{
+    filter: brightness(1.5);
+}
+@keyframes jumpInfinite {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    90% {
+      transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+  }

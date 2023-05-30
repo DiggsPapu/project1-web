@@ -1,6 +1,4 @@
 import React from 'react'
-import Button from './components/button/button'
-import Login from './components/button/loginButton'
 import Section from './components/section1/section1'
 import Header from './components/header/header'
 
