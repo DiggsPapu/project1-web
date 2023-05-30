@@ -1,5 +1,6 @@
 import React from 'react'
-import Section from './components/section1/section1'
+import Section1 from './components/section1/section1'
+import Section2 from './components/section2/section2'
 import Header from './components/header/header'
 
 function App() {
@@ -7,11 +8,13 @@ function App() {
     <>
       <div
         style={{
-          // position: 'absolute',
-          // top: 0,
+          marginTop: '5%',
         }}
       >
-        <Section />
+        <Section1 />
+      </div>
+      <div>
+        <Section2 />
       </div>
       <div
         style={{
