@@ -1,0 +1,32 @@
+.container-3 {
+    width: 88.694%;
+    height: 11.408%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    padding: 5.653%;
+    gap: 0;
+}
+.container-3 img {
+    width: 50%;
+    height: auto;
+}
+
+.container-3 div h2 {
+    font-family: 'JannaLTBold';
+    color: white;
+    font-size: 250%;
+}
+.container-3 div p {
+    font-family: 'AvenirNextLTProLight';
+    color: #bebebe;
+    font-size: 120%;
+}
+.container-3 div {
+    width: 40.895256;
+    padding-left: 4.552372%;
+    padding-right: 4.552372%;
+    align-items: center;
+    align-self: center;
+}

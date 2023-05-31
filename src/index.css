@@ -11,8 +11,17 @@ body {
   /* You can add other font-related properties here, such as font-weight and font-style */
 }
 @font-face {
+  font-family: 'AvenirNextLTProBold';
+  src: url('src/fonts/AvenirNext/AvenirNextLTPro-Bold.otf') format('truetype');
+  /* You can add other font-related properties here, such as font-weight and font-style */
+}
+@font-face {
   font-family: 'AvenirNextLTProIt';
   src: url('src/fonts/AvenirNext/AvenirNextLTPro-It.otf') format('truetype');
+}
+@font-face {
+  font-family: 'AvenirNextLTProLight';
+  src: url('src/fonts/AvenirNext/avenirnextltpro-light.woff.ttf') format('truetype');
 }
 @font-face {
   font-family: 'JannaLTBold';
