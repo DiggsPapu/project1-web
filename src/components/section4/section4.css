@@ -1,0 +1,17 @@
+.section4 {
+    width: 88.6924076%;
+    padding: 5.6537962%;
+    align-items: center;
+}
+.section4 h2 {
+    font-family: 'JannaLTBold';
+    color: white;
+    font-size: 250%;
+    text-align: center;
+}
+.section4 p {
+    font-family: 'AvenirNextLTProLight';
+    color: #bebebe;
+    font-size: 120%;
+    text-align: center;
+}
