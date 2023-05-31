@@ -4,6 +4,7 @@ import Section2 from './components/section2/section2'
 import Section3 from './components/section3/section3'
 import Section4 from './components/section4/section4'
 import Section5 from './components/section5/section5'
+import Section6 from './components/section6/section6'
 import Header from './components/header/header'
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
       </div>
       <div>
         <Section5 />
+      </div>
+      <div>
+        <Section6 />
       </div>
       <header
         style={{
