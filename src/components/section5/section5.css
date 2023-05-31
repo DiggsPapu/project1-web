@@ -1,35 +1,35 @@
 .container-5 {
     width: 88.694%;
-    height: 11.408%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-self: center;
+    height: auto;
     padding: 5.653%;
-    gap: 0;
-    background-image: url('/src/assets/lionking.png');
-    background-size: cover;
+    display: flex;
+    position: relative;
 }
-.ghost {
-    width: 50%;
-    height: 100%;
+.container-5 img{
+    width: 99%;
+    height: auto;
 }
-
-.container-5 div h2 {
+.text-container h2 {
     font-family: 'JannaLTBold';
     color: white;
     font-size: 250%;
+    text-align: left;
 }
-.container-5 div p {
+.text-container p {
     font-family: 'AvenirNextLTProLight';
     color: #bebebe;
     font-size: 120%;
+    text-align: left;
 }
-.container-5 div {
-    width: 40.895256%;
+.text-container {
+    width: 50%;
     height: 100%;
-    padding-left: 4.552372%;
-    padding-right: 4.552372%;
-    align-items: center;
-    align-self: center;
+    right: 6%;
+    top: 0%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: transparent;
+    justify-content: center;
 }

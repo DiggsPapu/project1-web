@@ -1,10 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Login from '../button/loginButton'
 import Button from '../button/button'
 import DisneyLogo from '../../assets/disney-logo-2.png'
 import './header.css'
 
-export default function Header() {
+export default function Header({referencedPos}) {
   return (
     <nav className="header">
       <img src={DisneyLogo} alt="Disney Logo" style={{ marginLeft: '3%', height: '100%' }} />
@@ -26,4 +27,7 @@ export default function Header() {
       </a>
     </nav>
   )
+}
+Header.propTypes = {
+  referencedPos: PropTypes.node.isRequired,
 }

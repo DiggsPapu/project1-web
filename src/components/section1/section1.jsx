@@ -10,7 +10,7 @@ import Chris from '../../assets/chrisHemsworth.jpeg'
 import panter from '../../assets/blackPanter.jpeg'
 import yoda from '../../assets/yoda.jpeg'
 
-export default function section1({handleclick}) {
+export default function section1({ handleclick }) {
   return (
     <div className="container">
       <div className="mini-container">

@@ -13,6 +13,7 @@ export default function Button({
         backgroundColor: `${backgroundColor}`,
         border: '1px solid transparent',
         color: fontColor,
+        fontSize: '100%',
       }}
     >
       {text}
