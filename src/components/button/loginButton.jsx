@@ -7,7 +7,6 @@ export default function loginButton({ text }) {
     <button
       type="button"
       className="login-button"
-      // style={{backgroundColor: 'black'}}
     >
       {text}
     </button>

@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Section1 from './components/section1/section1'
 import Section2 from './components/section2/section2'
 import Section3 from './components/section3/section3'
 import Section4 from './components/section4/section4'
+import Section5 from './components/section5/section5'
 import Header from './components/header/header'
 
 function App() {
+  const ref = useRef(null)
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' })
+  }
   return (
     <>
       <div
@@ -13,9 +19,9 @@ function App() {
           marginTop: '5%',
         }}
       >
-        <Section1 />
+        <Section1 handleclick={handleClick} />
       </div>
-      <div>
+      <div ref={ref}>
         <Section2 />
       </div>
       <div>
@@ -24,10 +30,13 @@ function App() {
       <div>
         <Section4 />
       </div>
-      <div
+      <div>
+        <Section5 />
+      </div>
+      <header
         style={{
           width: '100%',
-          height: '90px',
+          height: '1.1077106%',
           position: 'fixed',
           top: '0px',
           left: '0px',
@@ -35,7 +44,7 @@ function App() {
         }}
       >
         <Header />
-      </div>
+      </header>
     </>
   )
 }
