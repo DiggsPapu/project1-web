@@ -6,6 +6,7 @@ import Section4 from './components/section4/section4'
 import Section5 from './components/section5/section5'
 import Section6 from './components/section6/section6'
 import Section7 from './components/section7/section7'
+import Footer from './components/footer/footer'
 import Header from './components/header/header'
 
 function App() {
@@ -44,7 +45,7 @@ function App() {
       <header
         style={{
           width: '100%',
-          height: '1.1077106%',
+          height: '10%',
           position: 'fixed',
           top: '0px',
           left: '0px',
@@ -53,6 +54,9 @@ function App() {
       >
         <Header />
       </header>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }

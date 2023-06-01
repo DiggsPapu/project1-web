@@ -20,9 +20,9 @@ export default function section2() {
           [['Original series, classics and movies from Disney, Pixar, Marvel, Star Wars and National Geographic'], ['check'], ['check']],
           [['Live sports from the world\'s best leagues and biggest tournaments from ESPN'], ['-'], ['check']],
           [['Local productions and award-winning TV shows, movies, and series exclusively on Star+'], ['-'], ['check']],
-          [['Stream up to 4 different devices at once'], ['4'], ['4+4']],
+          [['Stream up to 4 different devices at once'], ['', '4'], ['', '4+4']],
           [['Download and watch your favorites without connection or delays'], ['check'], ['check']],
-          [['Create personalized profiles within your account'], ['7'], ['7+7']],
+          [['Create personalized profiles within your account'], ['', '7'], ['', '7+7']],
           [['Protect your family with parental controls'], ['check'], ['check']],
         ]}
         extraMessage={['* The price may vary if billed through other platforms. Third party charges may apply.']}
