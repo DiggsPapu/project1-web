@@ -10,24 +10,28 @@
     left: 0%;
     margin-top: 0.01%;
     padding: 5px;
+    cursor: pointer;
 }
 .signUp {
     margin-left: auto;
     width: 160px;
     height: 95%;
+    cursor: pointer;
 }
 .logIn {
     width: 100px;
     height: 95%;
     margin-right: 1%;
+    cursor: pointer;
 }
 .header img {
     margin-left: 3%;
     height: 100%;
+    cursor: pointer;
 }
 @media only screen and (max-width:1024px){
     .header {
-        width: 100%;
+        width: 100vw;
         height: 7vh;
         display: flex;
         padding: 5px;
@@ -40,12 +44,14 @@
         width: 160px;
         margin-top: 1%;
         margin-bottom: 1%;
+        cursor: pointer;
     }
     .logIn {
         margin-right: 3%;
         margin-top: 1%;
         margin-bottom: 1%;
         width: 100px;
+        cursor: pointer;
     }
 }
 /* style={{

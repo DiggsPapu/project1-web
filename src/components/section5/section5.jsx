@@ -1,12 +1,12 @@
 import React from 'react'
 import Picture from '../../assets/lionking.png'
-import './section5.css'
+import styles from './section5.module.css'
 
 export default function section5() {
   return (
-    <div className="container-5">
+    <div className={styles.container}>
       <img src={Picture} alt="The lion King" />
-      <div className="text-container">
+      <div className={styles.textContainer}>
         <h2>
           Download any series or movie
         </h2>

@@ -1,10 +1,10 @@
 import React from 'react'
 import Picture from '../../assets/electro.png'
-import './section3.css'
+import styles from './section3.module.css'
 
 export default function section3() {
   return (
-    <div className="container-3">
+    <div className={styles.container}>
       <img src={Picture} alt="Electro" />
       <div>
         <h2>Watch the way you want</h2>

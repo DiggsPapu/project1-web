@@ -1,0 +1,40 @@
+.container {
+    width: 88.6924076%;
+    padding: 5.6537962%;
+    align-items: center;
+}
+.container h2 {
+    font-family: 'JannaLTBold';
+    color: white;
+    font-size: 250%;
+    text-align: center;
+}
+.container p {
+    font-family: 'AvenirNextLTProLight';
+    color: #bebebe;
+    font-size: 120%;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 88.694%;
+        height: 11.408%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        padding: 5.653%;
+        gap: 0;
+    }
+    .container h2 {
+        font-size: 1.5rem;
+        width: 88%;
+    }
+    .container p {
+        font-family: 'AvenirNextLTProLight';
+        color: #bebebe;
+        font-size: 1rem;
+        width: 88%;
+        text-align: center;
+    }
+}

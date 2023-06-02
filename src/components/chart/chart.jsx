@@ -1,23 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './chart.css'
+import styles from './chart.module.css'
 import Button from '../button/button'
 
 export default function chart({ header, data, extraMessage }) {
   return (
-    <div className="table-container">
-      <table style={{ borderSpacing: '0' }}>
+    <div className={styles.tableContainer}>
+      <table>
         <thead>
-          <tr className="table-header">
-            <th aria-label="Empty" style={{ width: '32.999%' }} />
+          <tr className={styles.tableHeader}>
+            <th aria-label="Empty" className={styles.ghost} />
             {header.map((row, index) => (
-              <th style={index !== 0 ? { width: '33.501%', borderTop: '1px solid #383a43', backgroundColor: '#1d1f2b' } : { width: '33.501%', borderTop: '1px solid #383a43' }}>
-                <div style={{
-                  display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'relative',
-                }}
-                >
-                  <p className="avenir-next-regular-font" style={{ color: 'white', fontWeight: 'normal' }}>{row[0]}</p>
-                  <div className="image-container">
+              <th className={index !== 0 ? styles.head1 : styles.head2}>
+                <div className={styles.headerContainer}>
+                  <p>{row[0]}</p>
+                  <div className={styles.imageContainer}>
                     <img src={row[1]} alt="header_img" style={{ width: '100%', height: 'fit-content' }} />
                   </div>
                   <div style={{
@@ -44,13 +41,13 @@ export default function chart({ header, data, extraMessage }) {
           {data.map((row, index) => (
             <tr>
               {row.map((element, index1) => (
-                <td className="row" style={index === 0 ? { height: '10.342%', borderTop: '1px solid #b4b4b8', color: '#a3a3a5' } : { color: '#a3a3a5' }}>
+                <td className={styles.row} style={index === 0 ? { height: '10.342%', borderTop: '1px solid #b4b4b8', color: '#a3a3a5' } : { color: '#a3a3a5' }}>
                   {element.map((text, index2) => (
-                    <div className="element">
+                    <div className={styles.element}>
                       {
                         text === 'check' || text === '-'
                           ? (
-                            <div className="icon">
+                            <div className={styles.icon}>
                               {
                               text === 'check'
                                 ? (

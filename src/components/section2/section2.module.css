@@ -1,9 +1,15 @@
-.container-1 {
-    width: 100%;
+.container {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-self: center;
     align-items: center;
     align-content: center;
     text-align: center;
+}
+.title {
+    font-family: 'JannaLTBold';
+    width: 100%;
+    font-size: 3rem;
+    color: white;
 }

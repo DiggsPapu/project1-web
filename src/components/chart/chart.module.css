@@ -1,16 +1,19 @@
-.table-container {
+.tableContainer {
     width: 88.928%;
     height: 79.266%;
-    margin-left: 5.536%;
 }
-.table-container table{
+.tableContainer table{
     width: 100%;
     height: 100%;
     color: grey;
+    border-spacing: 0;
 }
-.table-header {
+.tableHeader {
     width: 100%;
     height: 17.862%;
+}
+.ghost {
+    width: 32.999%;
 }
 thead th {
     top: 10%;
@@ -18,13 +21,13 @@ thead th {
     border-bottom: 1px solid #b4b4b8;
     background-color: #040814;
 }
-.image-container {
+.imageContainer {
     height: 10vh;
     width: 28.446%;
     position: relative;
 
 }
-.image-container img{
+.imageContainer img{
     width: 100%;
     height: fit-content;
 }
@@ -41,6 +44,27 @@ tbody {
 }
 tbody tr {
     height: 8.913%;
+}
+.head1 {
+    width: 33.501%; 
+    border-top: 1px solid #383a43;
+    background-color: #1d1f2b;
+}
+.head2 {
+    width: 33.501%;
+    border-top: 1px solid #383a43
+}
+.headerContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.headerContainer p {
+    color: white;
+    font-weight: 400; 
+    font-family: 'AvenirNextLTProRegular';
 }
 .element {
     width: 100%;
@@ -62,4 +86,22 @@ tbody tr {
 }
 .icon svg {
     width: 5%;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100vw;
+    }
+    .ghost {
+        width: 0px;
+    }
+    .head1 {
+        width: 50%;
+    }
+    .head2 {
+        width: 50%;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
 }

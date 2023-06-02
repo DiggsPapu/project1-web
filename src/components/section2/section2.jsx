@@ -2,17 +2,12 @@ import React from 'react'
 import Chart from '../chart/chart'
 import DisneyLogo from '../../assets/disney-logo-2.png'
 import Star from '../../assets/disney-combo-star.png'
-import './section2.module.css'
+import styles from './section2.module.css'
 
 export default function section2() {
   return (
-    <div className="container-1">
-      <p
-        className="janna-font"
-        style={{
-          width: '100%', fontSize: '200%', color: 'white', textAlign: 'center',
-        }}
-      >
+    <div className={styles.container}>
+      <p className={styles.title}>
         Select your plan
       </p>
       <p className="avenir-next-regular-font" style={{ color: 'grey', textAlign: 'center' }}>Cancel anytime</p>

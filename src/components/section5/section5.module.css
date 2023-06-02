@@ -1,0 +1,68 @@
+.container {
+    width: 88.694%;
+    height: auto;
+    padding: 5.653%;
+    display: flex;
+    position: relative;
+}
+.container img{
+    width: 99%;
+    height: auto;
+}
+.textContainer h2 {
+    font-family: 'JannaLTBold';
+    color: white;
+    font-size: 250%;
+    text-align: left;
+}
+.textContainer p {
+    font-family: 'AvenirNextLTProLight';
+    color: #bebebe;
+    font-size: 120%;
+    text-align: left;
+}
+.textContainer {
+    width: 50%;
+    height: 100%;
+    right: 8%;
+    top: 0%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: transparent;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 88.694%;
+        height: 11.408%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        padding: 5.653%;
+        gap: 0;
+    }
+    .container img{
+        width: 100%;
+        height: auto;
+    }
+    .textContainer {
+        width: 100%;
+        display: flex;
+        position: sticky;
+    }
+    .container .textContainer h2 {
+        font-family: 'JannaLTBold';
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .container .textContainer p {
+        font-family: 'AvenirNextLTProLight';
+        color: #bebebe;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
