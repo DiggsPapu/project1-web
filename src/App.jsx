@@ -42,16 +42,7 @@ function App() {
       <div>
         <Section7 />
       </div>
-      <header
-        style={{
-          width: '100%',
-          height: '10%',
-          position: 'fixed',
-          top: '0px',
-          left: '0px',
-          marginTop: '0.01%',
-        }}
-      >
+      <header style={{ width: '100%' }}>
         <Header />
       </header>
       <footer>
