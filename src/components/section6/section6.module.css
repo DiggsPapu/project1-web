@@ -1,4 +1,4 @@
-.container-6 {
+.container {
     width: 88.6924075%;
     padding: 5.6537963%;
     height: 11.5216146%;
@@ -6,10 +6,14 @@
     flex-direction: column;
 }
 
-.container-6 h2 {
+.container h2 {
     width: 100%;
     font-family: 'JannaLTBold';
     color: white;
     font-size: 250%;
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .container h2 {font-size: 1.5rem;}
 }

@@ -1,8 +1,19 @@
 .container {
-    width: 88.6924076%;;
-    padding: 5.6vw;
-    height: auto;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 88vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 1vw;
+  }
 .container h2 {
     width: 100%;
     font-family: 'JannaLTBold';
@@ -10,11 +21,11 @@
     font-size: 250%;
     text-align: center;
 }
-.container ul {
-    list-style: none;
-    width: 88.6924076%;
-    margin-bottom: 1%;
-}
 .container ul li {
     margin-bottom: 1%;
+}
+@media only screen and (max-width: 768px) {
+    .container h2 {
+        font-size: 1.5rem;
+    }
 }
