@@ -1,25 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import './button.css'
 
 export default function buttonDropDown() {
-  const [isOpen, setIsOpen] = useState(false)
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen)
-  }
+  const value = 'English'
   return (
     <div className="dropdown">
-      <button type="button" className="dropdown-toggle" onClick={toggleDropdown}>
-        Dropdown Button
-      </button>
-      {isOpen && (
-        <ul className="dropdown-menu">
-          <li>Option 1</li>
-          <li>Option 2</li>
-          <li>Option 3</li>
-        </ul>
-      )}
+      <select name="languages" id={value}>
+        <option value="English">English</option>
+        <option value="Spanish">Spanish</option>
+      </select>
     </div>
     // <button className="svg-button" type="button" onClick={click}>
     //   <span style={{ width: 'fit-content', height: 'fit-content' }}>

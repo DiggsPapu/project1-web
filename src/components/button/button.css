@@ -4,6 +4,7 @@
     height: 100%;
     font-size: 100%;
     font-family: 'AvenirNextLTProRegular', sans-serif;
+    font-weight: 400;
 }
 .normal-button:hover{
     filter: brightness(1.1);
@@ -22,6 +23,7 @@
     border-radius: 3px;
     width: fit-content;
     font-family: 'AvenirNextLTProRegular', sans-serif;
+    font-weight: 400;
     font-size: 100%;
 }
 .login-button:hover{
@@ -71,4 +73,25 @@
     font-family: 'AvenirNextLTProRegular', sans-serif;
     font-size: 50%;
     font-weight: 400;
+  }
+  .dropdown {
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+  }
+  .dropdown select {
+    color: rgba(255, 255, 255, 0.945);
+    font-size: 5%;
+    font-weight: 400;
+    font-family: 'AvenirNextLTProRegular';
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .dropdown select:hover {
+    color: white;
+    filter: brightness(5);
+  }
+  .dropdown select option {
+    color: black;
   }

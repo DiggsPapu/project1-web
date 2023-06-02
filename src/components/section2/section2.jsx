@@ -1,5 +1,7 @@
 import React from 'react'
 import Chart from '../chart/chart'
+import DisneyLogo from '../../assets/disney-logo-2.png'
+import Star from '../../assets/disney-combo-star.png'
 import './section2.module.css'
 
 export default function section2() {
@@ -15,7 +17,7 @@ export default function section2() {
       </p>
       <p className="avenir-next-regular-font" style={{ color: 'grey', textAlign: 'center' }}>Cancel anytime</p>
       <Chart
-        header={[['Disney+', '/src/assets/disney-logo-2.png', 'USD 7.99/MONTH*', 'https://www.disneyplus.com/sign-up?skuInterval=monthly&toggle=shown'], ['Combo+', '/src/assets/disney-combo-star.png', 'USD 14.99/MONTH*', 'https://www.disneyplus.com/sign-up?type=bundle']]}
+        header={[['Disney+', DisneyLogo, 'USD 7.99/MONTH*', 'https://www.disneyplus.com/sign-up?skuInterval=monthly&toggle=shown'], ['Combo+', Star, 'USD 14.99/MONTH*', 'https://www.disneyplus.com/sign-up?type=bundle']]}
         data={[[['Annual price'], ['USD 66.99/year*', ' 12 months for the price of 9'], ['-']],
           [['Original series, classics and movies from Disney, Pixar, Marvel, Star Wars and National Geographic'], ['check'], ['check']],
           [['Live sports from the world\'s best leagues and biggest tournaments from ESPN'], ['-'], ['check']],

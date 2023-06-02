@@ -11,7 +11,7 @@ export default function chart({ header, data, extraMessage }) {
           <tr className="table-header">
             <th aria-label="Empty" style={{ width: '32.999%' }} />
             {header.map((row, index) => (
-              <th style={index !== 0 ? { width: '33.501%', borderTop: '1px solid #383a43', backgroundColor: '#1d1f2b' } : { width: '33.501%', borderTop: '1px solid #383a43', backgroundColor: 'transparent' }}>
+              <th style={index !== 0 ? { width: '33.501%', borderTop: '1px solid #383a43', backgroundColor: '#1d1f2b' } : { width: '33.501%', borderTop: '1px solid #383a43' }}>
                 <div style={{
                   display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'relative',
                 }}
@@ -21,7 +21,7 @@ export default function chart({ header, data, extraMessage }) {
                     <img src={row[1]} alt="header_img" style={{ width: '100%', height: 'fit-content' }} />
                   </div>
                   <div style={{
-                    width: '56.783%', height: '5vh', marginBottom: '5%',
+                    width: '56.783%', height: '7vh', marginBottom: '5%',
                   }}
                   >
                     <a href={row[3]} aria-label="link">
@@ -87,7 +87,7 @@ export default function chart({ header, data, extraMessage }) {
                           )
                           : (
                             <p
-                              style={index2 === 0 && index === 0 && index1 === 1 ? { textDecoration: 'underline', textAlign: 'center' } : {}}
+                              style={index2 === 0 && index === 0 && index1 === 1 ? { textDecoration: 'underline', textAlign: 'center', color: 'white' } : {}}
                             >
                               {text}
                             </p>

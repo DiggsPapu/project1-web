@@ -1,5 +1,5 @@
 import React from 'react'
-import Picture from '@assets/electro.png'
+import Picture from '../../assets/electro.png'
 import './section3.css'
 
 export default function section3() {

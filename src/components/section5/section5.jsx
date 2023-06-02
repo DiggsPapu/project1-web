@@ -1,5 +1,5 @@
 import React from 'react'
-import Picture from '@assets/lionking.png'
+import Picture from '../../assets/lionking.png'
 import './section5.css'
 
 export default function section5() {

@@ -1,7 +1,8 @@
 import React from 'react'
 import Transparent from '../button/buttonTransparent'
+import DropDown from '../button/buttonDropDown'
 import './footer.css'
-import Logo from '@assets/disney-logo-2.png'
+import Logo from '../../assets/disney-logo-2.png'
 
 export default function footer() {
   return (
@@ -12,7 +13,7 @@ export default function footer() {
       }}
       >
         <a href="https://disneytermsofuse.com/english/">
-          <Transparent text="Terms of use" />
+          <DropDown />
         </a>
         <a href="https://disneytermsofuse.com/english/">
           <Transparent text="Terms of use" />
