@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './button.css'
+import style from './button.module.css'
 
 export default function buttonTransparent({ text }) {
   return (
     <button
       type="button"
-      className="transparent-button"
+      className={style.transparentButton}
     >
       {text}
     </button>

@@ -1,10 +1,10 @@
 import React from 'react'
 import Dropdown from '../dropdown/dropdown'
-import './section7.css'
+import styles from './section7.module.css'
 
 export default function section7() {
   return (
-    <div className="section7">
+    <div className={styles.container}>
       <h2>Frequently Asked Questions</h2>
       <ul>
         <Dropdown

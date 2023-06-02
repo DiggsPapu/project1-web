@@ -1,4 +1,4 @@
-.li-container {
+.container {
     width: 100%;
     padding-right: 2%;
     padding-left: 2%;
@@ -7,21 +7,21 @@
     background-color: #13151d;
     position: relative;
 }
-.li-container button { 
+.container button { 
     background-color: transparent;
     width: 100%;
     border: none transparent;
     cursor: pointer;
     text-align: left;
 }
-.li-container button h1{
+.container button h1{
     font-size: 150%;
     font-family: 'AvenirNextLTProRegular';
     color: white;
     text-align: left;
     font-weight: 400;
 }
-.li-container button svg {
+.container button svg {
     width: 20px;
     height: 20px;
     position: absolute;

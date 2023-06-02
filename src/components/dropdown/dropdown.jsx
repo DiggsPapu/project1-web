@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import './dropdown.css'
+import style from './dropdown.module.css'
 
 function dropdown({
   title, subtitle, values, extra,
 }) {
   const [visible, setVisible] = useState(false)
   return (
-    <li className="li-container">
+    <li className={style.container}>
       <button
         type="button"
         onClick={() => setVisible(!visible)}
@@ -38,7 +38,7 @@ function dropdown({
       {
             visible
               ? (
-                <div className="list">
+                <div className={style.list}>
                   <h3>{subtitle}</h3>
                   <ul>
                     {values.map((element) => <li>{element}</li>)}

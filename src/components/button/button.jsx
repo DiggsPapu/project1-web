@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './button.css'
+import style from './button.module.css'
 
 export default function Button({
   text, backgroundColor, fontColor,
@@ -8,7 +8,7 @@ export default function Button({
   return (
     <button
       type="button"
-      className="normal-button"
+      className={style.normalButton}
       style={{
         backgroundColor: `${backgroundColor}`,
         border: '1px solid transparent',
