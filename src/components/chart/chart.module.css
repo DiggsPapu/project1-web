@@ -92,7 +92,7 @@ tbody tr {
         width: 100vw;
     }
     .ghost {
-        width: 0%;
+        width: 0vw;
     }
     .head1 {
         width: 50%;
@@ -103,5 +103,28 @@ tbody tr {
     .row {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        height: 117px;
+    }
+    .rowTitle{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .rowTitle p {
+        width: 100%;
+        margin-left: 50%;
+        color: white;
+        font-weight: 400; 
+        font-family: 'AvenirNextLTProRegular';
+    }
+    .subcolumn1 {
+        width: 50%;
+        border-bottom: 1px solid #383a43; 
+    }
+
+    .subcolumn2 {
+        width: 50%;
+        border-bottom: 1px solid #383a43; 
     }
 }
