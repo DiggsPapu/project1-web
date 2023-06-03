@@ -5,6 +5,8 @@ It is almost full responsive.
 ## Table of contents
 1. [Technologies used](README.md)
 2. [Screenshots](README.md)
+3. [What i have learned](README.md)
+4. [Author](README.md/Author)
 ## Technologies Used
 * React JS
 * Css Modules
