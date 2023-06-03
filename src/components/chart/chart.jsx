@@ -22,7 +22,7 @@ export default function chart({ header, data, extraMessage }) {
       <table>
         <thead>
           <tr className={styles.tableHeader}>
-            {windowWidth > 769 && windowWidth !== 769 && <th aria-label="Empty" className={styles.ghost} />}
+            {windowWidth > 768 && windowWidth !== 768 && <th aria-label="Empty" className={styles.ghost} />}
             {header.map((row, index) => (
               <th className={index !== 0 ? styles.head1 : styles.head2}>
                 <div className={styles.headerContainer}>
@@ -51,7 +51,7 @@ export default function chart({ header, data, extraMessage }) {
           </tr>
         </thead>
         <tbody>
-          {windowWidth > 769 && windowWidth !== 769
+          {windowWidth > 768 && windowWidth !== 768
             ? data.map((row, index) => (
               <tr>
                 {row.map((element, index1) => (
