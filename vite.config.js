@@ -17,4 +17,9 @@ export default defineConfig({
       { find: '@fonts', replacement: resolve(__dirname, '/src/fonts') },
     ],
   },
+  test: {
+    setupFiles: './src/setUpTests.js',
+    globals: true,
+    environment: 'jsdom',
+  },
 })

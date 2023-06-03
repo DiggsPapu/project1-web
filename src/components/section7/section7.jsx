@@ -21,11 +21,13 @@ export default function section7() {
         <Dropdown
           title="What payment methods can I use?"
           values={[]}
+          subtitle=""
           extra="You can pay with a credit card, debit card or PayPal."
         />
         <Dropdown
           title="How can I stream the new 16+ and 18+ content"
           values={[]}
+          subtitle=""
           extra="Disney+ subscribers in Latin America will need to update the parental controls on their profile in order to access to the full catalog that includes 16+ and 18+ content. Users are able to restrict content in each profile as well as add a lock PIN. If you are a subscriber and you prefer to keep your current parental settings, you will enjoy all Disney+ content in a 14+ environment, and you will have the option to modify parental controls in the “edit profile” section any time."
         />
       </ul>

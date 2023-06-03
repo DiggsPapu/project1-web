@@ -22,7 +22,7 @@ export default function chart({ header, data, extraMessage }) {
       <table>
         <thead>
           <tr className={styles.tableHeader}>
-            {windowWidth > 768 && windowWidth !== 768 && <th aria-label="Empty" className={styles.ghost} />}
+            {windowWidth > 769 && windowWidth !== 769 && <th aria-label="Empty" className={styles.ghost} />}
             {header.map((row, index) => (
               <th className={index !== 0 ? styles.head1 : styles.head2}>
                 <div className={styles.headerContainer}>
@@ -51,7 +51,7 @@ export default function chart({ header, data, extraMessage }) {
           </tr>
         </thead>
         <tbody>
-          {windowWidth > 768 && windowWidth !== 768
+          {windowWidth > 769 && windowWidth !== 769
             ? data.map((row, index) => (
               <tr>
                 {row.map((element, index1) => (
@@ -111,7 +111,7 @@ export default function chart({ header, data, extraMessage }) {
                 ))}
               </tr>
             ))
-            : data.map((row, index) => (
+            : data.map((row) => (
               <>
                 <tr className={styles.rowTitle}>
                   <p>{row[0]}</p>
@@ -119,7 +119,7 @@ export default function chart({ header, data, extraMessage }) {
                 <tr>
                   <td className={styles.subcolumn1}>
                     {
-                    row[1].map((text, index1) => (
+                    row[1].map((text) => (
                       text === 'check' || text === '-'
                         ? (
                           <div className={styles.icon}>
@@ -161,7 +161,7 @@ export default function chart({ header, data, extraMessage }) {
                   </td>
                   <td className={styles.subcolumn2}>
                     {
-                    row[2].map((text, index1) => (
+                    row[2].map((text) => (
                       text === 'check' || text === '-'
                         ? (
                           <div className={styles.icon}>

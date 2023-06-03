@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import style from './button.module.css'
 
 export default function buttonDropDown() {
@@ -12,9 +11,4 @@ export default function buttonDropDown() {
       </select>
     </div>
   )
-}
-buttonDropDown.propTypes = {
-  values: PropTypes.arrayOf(PropTypes.string).isRequired,
-  color: PropTypes.string.isRequired,
-  click: PropTypes.func.isRequired,
 }
