@@ -42,6 +42,7 @@ export default function footer() {
         The Disney+ service is marketed by Disney DTC LATAM, Inc.,
         2400 W Alameda Ave., Burbank CA 91521 and Tax ID 75-3016153.
       </p>
+      <p><a href="https://diggspapu.github.io/FrontendCompis/">Hi Im Diego, click here</a></p>
     </div>
   )
 }
